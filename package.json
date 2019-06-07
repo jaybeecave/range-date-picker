@@ -1,0 +1,21 @@
+{
+  "name": "range-date-picker",
+  "version": "1.0.0",
+  "description": "Range Date Picker designed from scratch with no dependancies other than .vue ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/nerdynz/range-date-picker"
+  },
+  "keywords": [
+    "Date",
+    "Picker",
+    "Vue",
+    "Date"
+  ],
+  "author": "Joshua Cave",
+  "license": "ISC"
+}

@@ -1,11 +1,15 @@
 {
-  "name": "range-date-picker",
-  "version": "1.0.0",
-  "description": "Range Date Picker designed from scratch with no dependancies other than .vue ",
+  "name": "vue-date-picker-with-range",
+  "version": "1.0.2",
+  "description": "Range Date Picker designed from scratch with very few dependencies",
   "main": "index.js",
   "scripts": {
-    "dev": "vue serve RangeDatePicker.vue"
+    "dev": "vue serve Test.vue",
+    "build": "bili --module-name index --plugins.vue"
   },
+  "files": [
+   "dist/*"
+  ],
   "repository": {
     "type": "git",
     "url": "github.com/nerdynz/range-date-picker"
@@ -17,5 +21,13 @@
     "Date"
   ],
   "author": "Joshua Cave",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "parsetime": "^0.2.9"
+  },
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-vue": "^5.1.6",
+    "vue-template-compiler": "^2.6.11"
+  }
 }

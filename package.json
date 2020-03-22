@@ -1,11 +1,11 @@
 {
   "name": "vue-date-picker-with-range",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Range Date Picker designed from scratch with very few dependencies",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "dev": "vue serve Test.vue",
-    "build": "bili --module-name index --plugins.vue"
+    "build": "bili --module-name index --plugins.vue --bundle-node-modules"
   },
   "files": [
    "dist/*"

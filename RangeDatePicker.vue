@@ -1,7 +1,8 @@
 <template>
-  <div class="dp-range-date override" :class="{'is-range': isRangePicker}"><!-- .dp-range-date.o-h override hook for more explicit css -->
+  <div class="dp-range-date override field has-addons" :class="{'is-range': isRangePicker}"><!-- .dp-range-date.o-h override hook for more explicit css -->
     <div v-show="isPickerActive" class="dp-click-overlay" @click="closePicker"></div>
-    <input ref="inp" class="dp-input" @blur="parseDate"/>
+    
+    <input ref="inp" class="input dp-input " @blur="parseDate"/>
     <slot name="buttons">
       <button class="dp-open-button button is-primary" @click="togglePicker">
         <i class="far fa-calendar" />

@@ -1214,11 +1214,6 @@ clean-css@^4.1.11:
   dependencies:
     source-map "~0.6.0"
 
-cleave.js@^1.5.3:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/cleave.js/-/cleave.js-1.5.3.tgz#1ef36e1375dea289bffeefe8ebb1e3ef2ee23240"
-  integrity sha512-tLum0abk+NRUZtMxpqLQS0jE9k2KYzsUlnMAqfMd2LAf8bb5xTHLHXTtPyI+dCk6DThtmWER3EzKfUi4NHdR7A==
-
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
@@ -2526,9 +2521,9 @@ path-is-absolute@^1.0.0:
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 performance-now@^2.1.0:
   version "2.1.0"
